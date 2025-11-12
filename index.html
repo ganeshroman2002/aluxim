@@ -1,14 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aluxim Consulting - IT Outsourcing Excellence</title>
-    <script type="module" crossorigin src="/assets/index-C3By9VG0.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CUHa9WLB.css">
-  </head>
-  <body>
+    <title>Aluxim AI Labs - AI-Powered Safety Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              'ai-pattern': `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3e%3cg fill='none' fill-rule='evenodd'%3e%3cg fill='%23e2e8f0' fill-opacity='0.6'%3e%3cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e")`,
+            },
+            colors: {
+              'primary': '#7e22ce',       // Vibrant Purple
+              'secondary': '#db2777',     // Bright Pink
+              'accent': '#60a5fa',         // Cool Blue
+              'dark': '#1e293b',          // Deep Slate for headings
+              'light': '#f1f5f9',        // Light Slate for surfaces
+              'text': '#334155',           // Slate for body text
+              'border': '#e2e8f0',        // Slate for borders
+            },
+            fontFamily: {
+              'display': ['Poppins', 'sans-serif'],
+              'sans': ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-CXmRdEc0.js"></script>
+</head>
+  <body class="font-sans text-text bg-slate-50 bg-ai-pattern">
     <div id="root"></div>
   </body>
 </html>
